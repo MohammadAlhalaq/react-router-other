@@ -1,0 +1,39 @@
+.signup-form{
+  background: rgb(158, 158, 158);
+  padding: 2.5rem;
+  border-radius: 0.3rem;
+  width: 35vh;
+  margin: 2rem auto;
+  box-shadow: 1px 7px 9px -2px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 81%;
+  padding: 8.1%;
+  text-align: center;
+  margin: .2rem 0;
+  border-radius: .2rem;
+  border: .05rem solid slateblue;
+  outline: none;
+}
+.button{
+  
+  width: 99%;
+  padding: 8.1%;
+  text-align: center;
+  margin: .2rem 0;
+  border-radius: .1rem;
+  border: none;
+  outline: none;
+  background: rgba(236, 229, 229, 0.589);
+  color: rgb(48, 37, 116);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.button:hover{
+  background: rgba(228, 209, 209, 0.589);
+  cursor: pointer;
+  border: none;
+}

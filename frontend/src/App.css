@@ -1,0 +1,51 @@
+/* .App {
+  text-align: center;
+} */
+body{
+  margin: 0;
+  padding: 0;
+}
+.card{
+  background: rgb(158, 158, 158);
+  padding: 2.5rem;
+  border-radius: 0.3rem;
+  width: 35vh;
+  margin: 2rem auto;
+}
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.nav{
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 1rem 1rem 1rem 0;
+  color:black
+}
+
+
+a{
+  text-decoration: none;
+  
+}
+.end{
+  padding: 1rem;
+}
+.end:hover{
+  background-color: rgba(20, 18, 18, 0.685);
+  color: antiquewhite;
+}
+
+
+
+
+/* .App-link {
+  color: #09d3ac;
+} */

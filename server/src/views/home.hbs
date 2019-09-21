@@ -1,0 +1,23 @@
+{{> addpost}}
+<section>
+  <h1>Posts</h1>
+  {{#each posts}}
+    <article>
+      <h4>Trader : {{this.name}}</h4>
+      <h3>title : {{this.title}}</h3>
+      <p>content : {{this.content}}</p>
+      <img src="{{this.image}}" alt="{{this.image}}">
+      <h6><span>price : {{this.price}}</span></h6>
+      <hr>
+    </article>
+  {{/each}}
+</section>
+<section>
+  <h1>categories</h1>
+  {{#each categories}}
+    <article>
+      <a href="/category/{{this.title}}"><h5>{{this.title}}</h5></a>
+      <hr>
+    </article>
+  {{/each}}
+</section>
