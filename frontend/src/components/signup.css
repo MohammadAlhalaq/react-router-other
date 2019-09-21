@@ -1,5 +1,5 @@
 .signup-form{
-  background: rgb(158, 158, 158);
+  background: #D4CDCD;
   padding: 2.5rem;
   border-radius: 0.3rem;
   width: 35vh;
@@ -19,7 +19,6 @@
   outline: none;
 }
 .button{
-  
   width: 99%;
   padding: 8.1%;
   text-align: center;
@@ -27,13 +26,13 @@
   border-radius: .1rem;
   border: none;
   outline: none;
-  background: rgba(236, 229, 229, 0.589);
-  color: rgb(48, 37, 116);
+  background: #5B4DAF;
+  color: #FFFFFF;
   font-family: sans-serif;
   font-weight: bold;
 }
 .button:hover{
-  background: rgba(228, 209, 209, 0.589);
+  background: rgb(84, 69, 170);
   cursor: pointer;
   border: none;
 }

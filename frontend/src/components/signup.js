@@ -8,14 +8,25 @@ export default () => {
   // const [nameInput, setNameInput] = useState(); 
   // const refname = React.createRef();
   const sendUserData = () => {
-    console.log(nameInput);
-    console.log(emailInput);
-
-    console.log(passInput);
-
-    console.log(confPassInput);
-
-    
+    const user = {
+      name: nameInput,
+      email: emailInput,
+      password: passInput,
+      confirmPass: confPassInput
+    };
+    sendData(user)
+  }
+  const sendData = async (user) => {
+    const data = await fetch("http://localhost:3012/signup", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+      body: JSON.stringify(user)
+  });
+    const result = await data.json();
+    console.log(result);
   }
   return <div className="signup-form">
       <form action="/signup" method="POST" >

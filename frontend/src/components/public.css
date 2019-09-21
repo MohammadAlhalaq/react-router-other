@@ -1,0 +1,29 @@
+.adds{
+  display: flex;
+  width: 90vw;;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+.button-add:first-child{
+  width: 55%;
+}
+.button-add{
+
+  width: 40%;
+  padding: 8%;
+  text-align: center;
+  
+  /* margin: .2rem 1rem; */
+  border-radius: .1rem;
+  border: none;
+  outline: none;
+  background: #5B4DAF;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.button-add:hover{
+  background: rgb(84, 69, 170);
+  cursor: pointer;
+  border: none;
+}
