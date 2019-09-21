@@ -1,0 +1,17 @@
+<section>
+  <h1>Posts</h1>
+  {{#each posts}}
+    <article>
+      <h4>Trader : {{this.name}}</h4>
+      <h3>title : {{this.title}}</h3>
+      <p>content : {{this.content}}</p>
+      <img src="{{this.image}}" alt="{{this.image}}">
+      <h6><span>price : {{this.price}}</span></h6>
+      <hr>
+    </article>
+  {{/each}}
+  <h1>traders</h1>
+  {{#each trader}}
+        <a href="/trader/{{this.userid}}"><h5>{{this.name}}</h5></a>
+  {{/each}}
+</section>

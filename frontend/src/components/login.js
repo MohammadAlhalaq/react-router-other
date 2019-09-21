@@ -21,6 +21,8 @@ export default () => {
     });
     const result = await data.json();
     cookie.set('user',result.data);
+    console.log(result);
+    
   }
   return <div className="signup-form">
   <form action="/signup" method="POST" >
